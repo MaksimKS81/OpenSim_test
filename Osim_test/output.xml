@@ -1,0 +1,348 @@
+<?xml version="1.0" ?>
+<root>
+	<OpenSimDocument>
+		<key name="@attributes">
+			<Version>40500</Version>
+		</key>
+		<ScaleTool>
+			<key name="@attributes">
+				<name>HSS_Rajagopal2015_passiveCal_hipAbdMoved-scaled</name>
+			</key>
+			<mass>
+				<key name="#text">75.336999999999989</key>
+			</mass>
+			<height>
+				<key name="#text">-1</key>
+			</height>
+			<age>
+				<key name="#text">-1</key>
+			</age>
+			<notes>
+				<key name="#text">Unassigned</key>
+			</notes>
+			<GenericModelMaker>
+				<model_file>
+					<key name="#text">Unassigned</key>
+				</model_file>
+				<marker_set_file>
+					<key name="#text">Unassigned</key>
+				</marker_set_file>
+			</GenericModelMaker>
+			<ModelScaler>
+				<apply>
+					<key name="#text">true</key>
+				</apply>
+				<scaling_order/>
+				<MeasurementSet>
+					<objects/>
+					<groups/>
+				</MeasurementSet>
+				<ScaleSet>
+					<objects/>
+					<groups/>
+				</ScaleSet>
+				<marker_file>
+					<key name="#text">Sub_1_bilateral_squat02_.centers.trc</key>
+				</marker_file>
+				<time_range>
+					<key name="#text">0 5.9599999999999999645</key>
+				</time_range>
+				<preserve_mass_distribution>
+					<key name="#text">true</key>
+				</preserve_mass_distribution>
+				<output_model_file>
+					<key name="#text">Unassigned</key>
+				</output_model_file>
+				<output_scale_file>
+					<key name="#text">Unassigned</key>
+				</output_scale_file>
+			</ModelScaler>
+			<MarkerPlacer>
+				<apply>
+					<key name="#text">true</key>
+				</apply>
+				<IKTaskSet>
+					<objects>
+						<IKMarkerTask>
+							<item>
+								<key name="@attributes">
+									<name>C7</name>
+								</key>
+								<apply>
+									<key name="#text">true</key>
+								</apply>
+								<weight>
+									<key name="#text">1</key>
+								</weight>
+							</item>
+							<item>
+								<key name="@attributes">
+									<name>R.Shoulder</name>
+								</key>
+								<apply>
+									<key name="#text">true</key>
+								</apply>
+								<weight>
+									<key name="#text">1</key>
+								</weight>
+							</item>
+							<item>
+								<key name="@attributes">
+									<name>L.Shoulder</name>
+								</key>
+								<apply>
+									<key name="#text">true</key>
+								</apply>
+								<weight>
+									<key name="#text">1</key>
+								</weight>
+							</item>
+							<item>
+								<key name="@attributes">
+									<name>V.Sacral</name>
+								</key>
+								<apply>
+									<key name="#text">true</key>
+								</apply>
+								<weight>
+									<key name="#text">1</key>
+								</weight>
+							</item>
+							<item>
+								<key name="@attributes">
+									<name>L.PSIS</name>
+								</key>
+								<apply>
+									<key name="#text">true</key>
+								</apply>
+								<weight>
+									<key name="#text">1</key>
+								</weight>
+							</item>
+							<item>
+								<key name="@attributes">
+									<name>R.Hip</name>
+								</key>
+								<apply>
+									<key name="#text">true</key>
+								</apply>
+								<weight>
+									<key name="#text">1</key>
+								</weight>
+							</item>
+							<item>
+								<key name="@attributes">
+									<name>L.Hip</name>
+								</key>
+								<apply>
+									<key name="#text">true</key>
+								</apply>
+								<weight>
+									<key name="#text">1</key>
+								</weight>
+							</item>
+							<item>
+								<key name="@attributes">
+									<name>R.Knee.Lateral</name>
+								</key>
+								<apply>
+									<key name="#text">true</key>
+								</apply>
+								<weight>
+									<key name="#text">1</key>
+								</weight>
+							</item>
+							<item>
+								<key name="@attributes">
+									<name>R.Thigh.Front</name>
+								</key>
+								<apply>
+									<key name="#text">true</key>
+								</apply>
+								<weight>
+									<key name="#text">1</key>
+								</weight>
+							</item>
+							<item>
+								<key name="@attributes">
+									<name>R.Shank.Front</name>
+								</key>
+								<apply>
+									<key name="#text">true</key>
+								</apply>
+								<weight>
+									<key name="#text">1</key>
+								</weight>
+							</item>
+							<item>
+								<key name="@attributes">
+									<name>R.Ankle.Lateral</name>
+								</key>
+								<apply>
+									<key name="#text">true</key>
+								</apply>
+								<weight>
+									<key name="#text">1</key>
+								</weight>
+							</item>
+							<item>
+								<key name="@attributes">
+									<name>R.Toe</name>
+								</key>
+								<apply>
+									<key name="#text">true</key>
+								</apply>
+								<weight>
+									<key name="#text">1</key>
+								</weight>
+							</item>
+							<item>
+								<key name="@attributes">
+									<name>R.Heel</name>
+								</key>
+								<apply>
+									<key name="#text">true</key>
+								</apply>
+								<weight>
+									<key name="#text">1</key>
+								</weight>
+							</item>
+							<item>
+								<key name="@attributes">
+									<name>L.Knee.Lateral</name>
+								</key>
+								<apply>
+									<key name="#text">true</key>
+								</apply>
+								<weight>
+									<key name="#text">1</key>
+								</weight>
+							</item>
+							<item>
+								<key name="@attributes">
+									<name>L.Thigh.Front</name>
+								</key>
+								<apply>
+									<key name="#text">true</key>
+								</apply>
+								<weight>
+									<key name="#text">1</key>
+								</weight>
+							</item>
+							<item>
+								<key name="@attributes">
+									<name>L.Ankle.Lateral</name>
+								</key>
+								<apply>
+									<key name="#text">true</key>
+								</apply>
+								<weight>
+									<key name="#text">1</key>
+								</weight>
+							</item>
+							<item>
+								<key name="@attributes">
+									<name>L.Shank.Front</name>
+								</key>
+								<apply>
+									<key name="#text">true</key>
+								</apply>
+								<weight>
+									<key name="#text">1</key>
+								</weight>
+							</item>
+							<item>
+								<key name="@attributes">
+									<name>L.Toe</name>
+								</key>
+								<apply>
+									<key name="#text">true</key>
+								</apply>
+								<weight>
+									<key name="#text">1</key>
+								</weight>
+							</item>
+							<item>
+								<key name="@attributes">
+									<name>L.Heel</name>
+								</key>
+								<apply>
+									<key name="#text">true</key>
+								</apply>
+								<weight>
+									<key name="#text">1</key>
+								</weight>
+							</item>
+							<item>
+								<key name="@attributes">
+									<name>L.Ankle.Center</name>
+								</key>
+								<apply>
+									<key name="#text">true</key>
+								</apply>
+								<weight>
+									<key name="#text">1</key>
+								</weight>
+							</item>
+							<item>
+								<key name="@attributes">
+									<name>L.Knee.Center</name>
+								</key>
+								<apply>
+									<key name="#text">true</key>
+								</apply>
+								<weight>
+									<key name="#text">1</key>
+								</weight>
+							</item>
+							<item>
+								<key name="@attributes">
+									<name>R.Ankle.Center</name>
+								</key>
+								<apply>
+									<key name="#text">true</key>
+								</apply>
+								<weight>
+									<key name="#text">1</key>
+								</weight>
+							</item>
+							<item>
+								<key name="@attributes">
+									<name>R.Knee.Center</name>
+								</key>
+								<apply>
+									<key name="#text">true</key>
+								</apply>
+								<weight>
+									<key name="#text">1</key>
+								</weight>
+							</item>
+						</IKMarkerTask>
+					</objects>
+					<groups/>
+				</IKTaskSet>
+				<marker_file>
+					<key name="#text">Sub_1_bilateral_squat02_.centers.trc</key>
+				</marker_file>
+				<coordinate_file>
+					<key name="#text">Unassigned</key>
+				</coordinate_file>
+				<time_range>
+					<key name="#text">0 5.9599999999999999645</key>
+				</time_range>
+				<output_motion_file>
+					<key name="#text">Unassigned</key>
+				</output_motion_file>
+				<output_model_file>
+					<key name="#text">Unassigned</key>
+				</output_model_file>
+				<output_marker_file>
+					<key name="#text">Unassigned</key>
+				</output_marker_file>
+				<max_marker_movement>
+					<key name="#text">-1</key>
+				</max_marker_movement>
+			</MarkerPlacer>
+		</ScaleTool>
+	</OpenSimDocument>
+</root>
